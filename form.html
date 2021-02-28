@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <h2>Enter Your Details</h2>
+            <div class="form-control">
+                <label>UserName</label>
+                <input id="username" placeholder="Ex:ankit231" type="text" autocomplete="off">
+                <small id="user"></small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input id="email" placeholder="Ex:abc@xyz.com" type="text" autocomplete="off">
+                <small id="emails"></small>
+            </div>
+            <div class="form-control">
+                <label>Phone</label>
+                <input id="phone" placeholder="Ex:0123456789" type="text" autocomplete="off">
+                <small id="phones"></small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input id="password" placeholder="Enter Here" type="password" autocomplete="off">
+                <small id=pass></small>
+            </div>
+            <div class="form-control">
+                <label> Confirm Password</label>
+                <input id="password2" placeholder="Enter Here" type="password" autocomplete="off">
+                <small id="pass2"></small>
+            </div>
+            <button class="button" type="submit" id="button">SUBMIT</button>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
